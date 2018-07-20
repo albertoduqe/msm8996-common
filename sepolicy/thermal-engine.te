@@ -31,3 +31,6 @@ set_prop(thermal-engine, powerctl_prop)
 
 # IThermal Thermal HAL
 hal_server_domain(thermal-engine, hal_thermal)
+
+<!-- Whether to check that the proximity is unblocked before showing the incoming call UI. -->
+<bool name="config_answer_proximity_sensor_enabled">true</bool>
